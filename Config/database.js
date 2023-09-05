@@ -4,7 +4,7 @@ require("dotenv").config();
 const dbConnect = () => {
   mongoose
     .connect(
-      "mongodb+srv://sg4270173:aZ0NxXMqgUWHLJ96@cluster0.3y2asss.mongodb.net/CloudDataBase",
+      "mongodb+srv://sg4270173:eKJXppu1oQhnesnp@cluster0.gw25zgk.mongodb.net/CloudDatabase?retryWrites=true&w=majority",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,

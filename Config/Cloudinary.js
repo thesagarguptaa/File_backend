@@ -4,9 +4,9 @@ require("dotenv").config();
 exports.cloudinaryConnect = () => {
   try {
     cloudinary.config({
-      cloud_name: process.env.CLOUD_NAME,
-      api_key: process.env.API_KEY,
-      api_secret: process.env.API_SECRET,
+      cloud_name: "dmty4imf8",
+      api_key: "521146249345483",
+      api_secret: "9JdlHNaEd0XRhqj4PcPVMHSZ4aQ",
     });
   } catch (err) {
     console.log(err);

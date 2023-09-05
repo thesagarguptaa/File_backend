@@ -27,11 +27,11 @@ fileSchema.post("save", async function (doc) {
     console.log("doc", doc);
 
     let transporter = nodemailer.createTransport({
-      host: process.env.MAIL_HOST,
+      host: "smtp.gmail.com",
 
       auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
+        user: "sg4270173@gmail.com",
+        pass: "moxjdkjwktxdkvnf",
       },
     });
 
